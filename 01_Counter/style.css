@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+    
+}
+
+
+.col-md-6 {
+    border: 1px solid grey;
+    padding: 20px ;
+    margin-top: 150px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 4px 10px 2px grey;
+}
+button{
+    margin: 20px !important;
+}
+h1{
+    font-weight: bolder;
+    margin: 20px !important;
+}
