@@ -1,0 +1,47 @@
+body {
+    background-image: linear-gradient(to left, #ebc0fd 0%, #d9ded8 100%);
+}
+
+.col-md-3 {
+    background-color: lightcoral;
+    padding: 30px !important;
+    margin: 32px !important;
+
+}
+
+p {
+    font-weight: bold;
+    font-style: 23px;
+    text-transform: uppercase;
+}
+
+
+.col-md-3:hover {
+    background-image: linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%);
+    box-shadow: 2px 2px 3px 4px solid;
+    box-shadow: 2px 2px 3px 0px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+#navbar {
+    background-color: black;
+}
+
+li {
+    color: rgb(229, 227, 227);
+    list-style-type: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 0px !important;
+    margin-right: 20px;
+}
+
+#navItems {
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px !important;
+
+}

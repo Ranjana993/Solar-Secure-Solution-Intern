@@ -1,0 +1,13 @@
+body{
+    background-image: linear-gradient(to left, #667eea 0%, #764ba2 100%);
+}
+h1{
+    color: white;
+    background-color: rgb(18, 8, 97);
+    margin-top: 23px;
+    margin-bottom: 40px;
+}
+table{
+    margin-top: 12px !important;
+    padding: 12px;
+}
