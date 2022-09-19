@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <style>
+        .mystyle {
+            width: 100%;
+            padding: 25px;
+            background-color: coral;
+            color: white;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <button onclick="clickBtn()">Click Me</button>
+    <button onclick="myFunction()">Bg Change</button>
+    <div class="myDIV">
+        <h2 id="head">Hello this is heading 2....</h2>
+    </div> -->
+
+
+    <!-- Second way ..... -->
+    <!-- <Button onclick="alert('Im clicked waoooo')">Click me</Button><br><br>
+    <Button onmouseenter="alert('heyyy WhatsUp....')">Hover me</Button><br><br>
+    <Button onmouseleave="alert('DAMN  dude bro whats up')">keyup me</Button><br><br>
+    <form action="" onsubmit="alert('Submitted')">
+        <button>Submit</button>
+    </form> -->
+</body>
+
+</html>
+
+
+<script>
+    var a = document.getElementById("head")
+    var div = document.getElementsByClassName("div")
+
+    function clickBtn() {
+        // a.style.backgroundColor = "#ff0000";
+        a.innerHTML = "This is changed ....";
+        a.style.fontSize = "2rem"
+    }
+    // 
+    function myFunction() {
+        var element = document.getElementById("myDIV");
+        element.classList.add("mystyle");
+    }
+</script>

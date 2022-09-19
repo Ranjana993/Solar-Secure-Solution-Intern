@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add AND Delete ....</title>
+</head>
+
+<body>
+<div id="MainDiv">
+    <h1>This is First Heading</h1>
+    <h1 id="Heading">This is Second Heading</h1>
+</div>
+</body>
+
+</html>
+<script>
+    var MainDiv = document.getElementById("MainDiv")
+    var Heading = document.getElementById("Heading")
+// Crteate node .
+var heading3 = document.createElement("h1")
+var Text = document.createTextNode("This is Third Heading......")
+heading3.appendChild(Text)
+MainDiv.appendChild(heading3)
+
+MainDiv.removeChild(Heading)
+</script>
